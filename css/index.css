@@ -1,4 +1,42 @@
 /* *********************************** */
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#tarjeta{
+    background-color: #fff;
+    width: 800px;
+    border-radius: 10px;
+    padding: 50px;
+    border: 1px solid rgb(189, 189, 189);
+    
+
+    display: flex;
+}
+.izq{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.color{
+    flex-basis: 100%;
+    max-width: 200px;
+    height: 200px;
+    background-color: red;
+
+    position: relative;
+    left: -40%;
+}
+.der{
+    flex-basis: 70%;
+    padding-left: 20px;
+}
 
