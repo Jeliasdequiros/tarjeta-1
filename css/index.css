@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 body{
+    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -17,7 +18,7 @@ body{
     padding: 50px;
     border: 1px solid rgb(189, 189, 189);
     
-
+    
     display: flex;
 }
 .izq{
@@ -30,7 +31,9 @@ body{
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
-    background-color: red;
+    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+
+    border-radius: 10px;
 
     position: relative;
     left: -40%;
