@@ -5,14 +5,21 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right top,
+     #a4392c, #b1323f, #bb2b54, #c1296c,
+      #c12f87, #c52e89, #ca2c8c, #ce2b8e,
+       #d71f75, #db1f5b, #d82b42, #d13a28);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #tarjeta{
-    background-color: #fff;
+    background-image: linear-gradient(to left bottom,
+     #9d75db, #926bd0, #8761c5, #7c57ba, #714daf);
     width: 800px;
     border-radius: 10px;
     padding: 50px;
@@ -31,7 +38,9 @@ body{
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background-image: linear-gradient(to right top, #845ec2,
+     #8e5ac0, #9855bc, #a24fb9, #ab49b4, #b940a9,
+      #c4359c, #ce2b8e, #d71f75, #db1f5b, #d82b42, #d13a28);
 
     border-radius: 10px;
 
