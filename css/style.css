@@ -4,9 +4,31 @@
 
 /* Tipografía */
 @font-face {
-    font-family: "";
-    src: url("") format("woof2"),
-         url("") format("woof");
+    font-family: "shri";
+
+    src:
+        url("../font/shrikhand-regular-webfont.woff2") format("woff2"),
+        url("../font/shrikhand-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: "Roboto-Black";
+
+    src:
+        url("../font/Roboto-Black.woff2") format("woff2"),
+        url("../font/Roboto-Black.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html
+{
+    font-family: "shri";
+    font-size: 15px;
+    font-weight: normal;
 }
 
 /* ******************************** */
@@ -14,4 +36,6 @@
 /* Colores */
 
 /* ******************************** */
+
+
 
