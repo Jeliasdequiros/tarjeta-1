@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background-image: radial-gradient(circle, #051937, #004c7b, #008599, #00bd79, #82eb12);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,12 +31,12 @@ body{
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background-image: radial-gradient(circle, #051937, #004c7b, #008599, #00bd79, #82eb12);
 
     border-radius: 10px;
 
     position: relative;
-    left: -40%;
+    left: -60%;
 }
 .der{
     flex-basis: 70%;
