@@ -11,7 +11,7 @@
 }
 
 body {
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background: linear-gradient(to left bottom, #043353, #E44652, #E4DFCF);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +19,8 @@ body {
 }
 
 #tarjeta {
-    background-color: #fff;
+    background-color: #FAF8F0;
+    box-shadow: inset 6px -9px 12px #d2d0ca, inset -9px 9px 12px #ffffff;
     width: 800px;
     border-radius: 25px;
     padding: 40px;
@@ -38,10 +39,11 @@ body {
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background: #043353;
+    box-shadow: 4px 4px 12px #a7a8a8;
     border-radius: 10px;
     position: relative;
-    left: -40%;
+    left: -45%;
 }
 
 .der {
@@ -51,4 +53,8 @@ body {
 
 p {
     text-align: justify;
+}
+
+button {
+    text-decoration: none;
 }
