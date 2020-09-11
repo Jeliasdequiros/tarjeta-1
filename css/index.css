@@ -3,20 +3,25 @@
 /* *********************************** */
 *{
     box-sizing: border-box;
+  
+font-weight: bold;
+color:#4D3A4D;
+font-family: 'Courier New', Courier, monospace;
 }
 body{
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background: linear-gradient(to left bottom, #e9a2dd, #ffa2ba, #ffb48d, #ffd46e, #d0f67b);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 #tarjeta{
-    background-color: #fff;
+    background-color: #e9a2dd;
     width: 800px;
     border-radius: 10px;
     padding: 50px;
     border: 1px solid rgb(189, 189, 189);
+
     
     
     display: flex;
@@ -31,7 +36,7 @@ body{
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background: linear-gradient(to left top, #e9a2dd, #ffa2ba, #ffb48d, #ffd46e, #d0f67b);
 
     border-radius: 10px;
 
@@ -43,3 +48,9 @@ body{
     padding-left: 20px;
 }
 
+button{
+    color:#ffd46e;
+    background-color: #4D3A4D;
+
+
+}
