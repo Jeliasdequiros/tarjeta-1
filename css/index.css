@@ -51,6 +51,8 @@ body{
 button{
     color:#ffd46e;
     background-color: #4D3A4D;
+    margin:0;
+    border: 2px groove #ffd46e;
 
 
 }
