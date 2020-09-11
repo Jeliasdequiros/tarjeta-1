@@ -6,6 +6,11 @@
 
 /* *********************************** */
 
+html {
+    font-family: Helvetica, sans-serif;
+    color: #808080;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -57,4 +62,6 @@ p {
 
 button {
     text-decoration: none;
+    background: #043353;
+    color: #FAF8F0;
 }
