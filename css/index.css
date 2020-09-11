@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background-image: linear-gradient(to right top, #ff5900, #f68500, #e5aa00, #cbcc00, #a8eb12);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -31,7 +31,7 @@ body{
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
-    background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
+    background-image: linear-gradient(to right top, #ff5900, #f68500, #e5aa00, #cbcc00, #a8eb12);
 
     border-radius: 10px;
 
@@ -42,4 +42,10 @@ body{
     flex-basis: 70%;
     padding-left: 20px;
 }
+
+.tipografia{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to right top, #ff5900, #f68500, #e5aa00, #cbcc00, #a8eb12);
+}
+
 
