@@ -1,45 +1,54 @@
 /* *********************************** */
+
+
 /* *** Estilos SOLO para index.html *** */
+
+
 /* *********************************** */
-*{
+
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
     background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#tarjeta{
+
+#tarjeta {
     background-color: #fff;
     width: 800px;
-    border-radius: 10px;
-    padding: 50px;
-    border: 1px solid rgb(189, 189, 189);
-    
-    
+    border-radius: 25px;
+    padding: 40px;
+    /* border: 1px solid rgb(189, 189, 189); */
     display: flex;
 }
-.izq{
+
+.izq {
     flex-basis: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.color{
+
+.color {
     flex-basis: 100%;
     max-width: 200px;
     height: 200px;
     background: linear-gradient(to right bottom, #ff4300, #ff7700, #f7a200, #eac800, #d8eb12);
-
     border-radius: 10px;
-
     position: relative;
     left: -40%;
 }
-.der{
+
+.der {
     flex-basis: 70%;
     padding-left: 20px;
 }
 
+p {
+    text-align: justify;
+}
