@@ -11,6 +11,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+
+#tarjeta:hover{
+    background: linear-gradient(135deg, rgb(206,37,86) 42%,rgb(78,150,27) 98%);
+}
 #tarjeta{
     background-color: #ce2556;
     width: 800px;
